@@ -1,0 +1,47 @@
+Compile CH4.c for CPU execution with gcc -O3 version 9.2 in file CH4.O3
+
+Challenge #4: Simulate 1000 steps on 1-D vector of 10000000 elements with L=1.2345678900e-01
+
+CheckSum = 1.5083758208e+06
+1.2345678901e+00
+-3.4254067513e-02
+1.8656827006e-01
+5.2676393338e-01
+-2.1151010125e-01
+9.5443464186e-02
+2.9194241643e-01
+1.0397330090e-01
+1.1658606969e+00
+
+ Performance counter stats for 'CH4.O3':
+
+          9.585,22 msec task-clock                #    0,997 CPUs utilized          
+               485      context-switches          #    0,051 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               403      page-faults               #    0,042 K/sec                  
+    32.401.432.711      cycles                    #    3,380 GHz                    
+    82.122.471.668      instructions              #    2,53  insn per cycle         
+     1.364.995.225      branches                  #  142,406 M/sec                  
+           889.381      branch-misses             #    0,07% of all branches        
+
+       9,610425543 seconds time elapsed
+
+       9,564260000 seconds user
+       0,019952000 seconds sys
+
+
+
+Challenge #4: Simulate 1000 steps on 1-D vector of 10000000 elements with L=1.2345678900e-01
+
+CheckSum = 1.5083758208e+06
+1.2345678901e+00
+-3.4254067513e-02
+1.8656827006e-01
+5.2676393338e-01
+-2.1151010125e-01
+9.5443464186e-02
+2.9194241643e-01
+1.0397330090e-01
+1.1658606969e+00
+[ perf record: Woken up 7 times to write data ]
+[ perf record: Captured and wrote 1,570 MB perf.data (41107 samples) ]
