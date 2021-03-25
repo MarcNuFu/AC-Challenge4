@@ -1,2 +1,5 @@
 # AC-Challenge4
-Fourth optimization challenge from Computer Architecture
+
+Cuarto reto de optimización de la asignatura Arquitectura de computadores
+
+Speed-up = 4.596x
